@@ -1,12 +1,45 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Hi! I'm Jia'nan Ji, currently a first-year master student at [Carnegie Mellon University](https://www.cmu.edu/). I'm passionate about research topics related to **Machine Learning Systems (MLSys)**, aiming to tackle real-world problems from efficiency to scalability. I'm very fortunate to work with [Prof. Zhihao Jia](https://www.cs.cmu.edu/~zhihaoj2/) from [Catalyst Lab](https://catalyst.cs.cmu.edu/) on ML compiler. 
 
+Before CMU, I obtained my bachelor degree in Computer Science from [Peking University](https://english.pku.edu.cn/) (Graduated with honor), where I had esteemed guidance from [Prof. Tong Yang](https://yangtonghome.github.io/) on probablistic data structure and algorithm. I also gained the privilege of working with [Prof. Minlan Yu](https://minlanyu.seas.harvard.edu/) at Harvard University on ML serving topic.
+
+Awards
+======
+- Merit Graduate of Beijing, 2024
+- Merit Graduate of Peking University, 2024
+- Merit Student, 2023
+- Mercedes Benz Scholarship, 2023
+- Outstanding Scientific Research Achievement Award, 2022
+
+Publications
+======
+<!-- {% if include.type == "grid" and teaser %}
+  <div class="archive__item-teaser">
+    <img src="{{ teaser }}" alt="Teaser Image">
+  </div>
+{% endif %} -->
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html%}
+  {% endfor %}</ul>
+<!-- [DaVinci Sketch: A Versatile Sketch for Efficient and Comprehensive Set Measurements](https://yangtonghome.github.io/uploads/DaVinci_icde_final.pdf)
+Yanshu Wang*, Jianan Ji*, Chao-Hsuan Liu, Hengyang Zhou, Tong Yang
+
+[ChainedFilter: Combining Membership Filters by Chain Rule](https://arxiv.org/abs/2308.13632)
+Haoyu Li, Liuhui Wang, Qizhi Chen, Jianan Ji, Yuhan Wu, Yikai Zhao, Tong Yang, Aditya Akella
+
+[BitMatcher: Bit-level Counter Adjustment for Sketches](https://www.wenjunli.com/BitMatcher/)
+Qilong Shi, Chengjun Jia, Wenjun Li, Zaoxing Liu, Tong Yang, Jianan Ji, Gaogang Xie, Weizhe Zhang, and Minlan Yu -->
+
+
+
+<!-- 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
@@ -46,4 +79,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

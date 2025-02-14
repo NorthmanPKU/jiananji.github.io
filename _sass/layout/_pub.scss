@@ -1,0 +1,32 @@
+.publication-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .publication-image {
+    flex: 0 0 150px; // 固定宽度
+    margin-right: 20px;
+  
+    img {
+      width: 100%;
+      height: auto; // 等比例缩放
+    }
+  }
+  
+  .publication-details {
+    flex: 1;
+  
+    .archive__item-title {
+      font-size: 1.2em;
+      margin: 0;
+    }
+  
+    .page__meta {
+      margin: 5px 0;
+    }
+  
+    .archive__item-excerpt {
+      margin: 5px 0;
+    }
+  }
